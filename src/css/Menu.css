@@ -1,0 +1,39 @@
+.menuDiv{
+    background-image: url(../assets/paper-1074132.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuSection{
+width: 80%;
+height: 80%;
+background-image: url(../assets/fd.png);
+background-size: cover;
+align-self: center;
+display: flex;
+flex-direction: column;
+justify-items: center;
+}
+
+.menuTitle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-family: VanillaWhale;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.menuContent{
+    background-color: aqua;
+    width: 75%;
+    height: 60%;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;}

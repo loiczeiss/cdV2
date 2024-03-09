@@ -1,0 +1,47 @@
+.startScreen {
+  background-image: url(./assets/liteCD.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Set height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.headerStartScreen {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  background-color: aliceblue;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(./assets/banniereHauteStartScreen.png);
+  background-position: 50% 15%;
+}
+
+.footerStartScreen {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/banniereBasStartScreen.png);
+  margin-top: auto; /* Push the footer to the bottom */
+  background-position: 50% 95%;
+  font-family: VanillaWhale;
+  font-size: 36px;
+}
+
+h1 {
+  font-family: VanillaWhale;
+  font-size: 64px;
+}
+
+
+h2:hover{
+  color: red;
+}
+
+img{
+  width: 300px;
+}

@@ -1,0 +1,28 @@
+.homeDiv{
+    display: flex;
+    flex-direction: row;
+background-image: url(../assets/liteCD.jpg);
+background-size: cover;
+background-position: center;
+height: 100%;
+}
+
+.homeHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(../assets/banniereHauteStartScreen.png);
+    background-position: 50% 15%;
+    height: 30%;
+}
+
+.homeHeaderRight{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:40px ;
+    font-family: VanillaWhale;
+}

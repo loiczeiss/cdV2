@@ -1,0 +1,23 @@
+html{
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'VanillaWhale';
+  src: url('./vanillawhale.otf') format('opentype'),
+      ;
+  /* Add additional src lines for other formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
